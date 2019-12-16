@@ -5,6 +5,9 @@
         color: #AAA !important;
         border:none !important;
     }
+    iframe:not([data-portal]) {
+        background:white !important;
+    }
     .logo {
         filter: grayscale(1) invert(1) !important;
         mix-blend-mode: screen;
